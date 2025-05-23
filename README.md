@@ -26,3 +26,9 @@ Features
 - **Interactive UI**:  
   - Drag-and-drop or browse to upload one or multiple resumes  
   - On-screen tables for Profile, Education, Experience, Skills, etc.  
+
+
+To Run: 
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+streamlit run app.py
